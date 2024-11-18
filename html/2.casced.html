@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/casced.css">
+</head>
+<body>
+    <h1>casced</h1>
+    <p>
+        casced adalah berfungsi macam macam selektor yang paling spesifik yang kita gunakan
+    </p>
+    <table border="1">
+        <tr>
+            <th>penjelasan</th>
+        </tr>
+        <tr>
+            <th>
+                <abbrv title="aturan terahir adalah ketika kita menselektor di dalam css, css kiata akan mengambil yang paling terahir selektor kita">selektor terahir</abbrv>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                *{
+                    color:green;
+                }
+                <br>
+               *{
+                    color:blue;
+                } 
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <abbrv title="spesifik dia akan menjalankan selektor yang paling tinggi levelnya disini ada level tertentu">spesifik</abbrv>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                b{
+                    color:black;            level 1
+                }
+                <br>
+                p b{
+                    color:blue;             level 2
+                }
+                <br>
+                p b{
+                    color:red !important;   level 3
+                }
+            </td>
+        </tr>
+        <tr>
+            <th>
+                study kasus
+            </th>
+        </tr>
+        <tr>
+            <td>
+                p {
+                    font size :100%;
+                }
+                <br>
+                p.hayta {
+                    font size :30%;
+                }
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3 align="center">
+        <a href="../html/daftar isi.html">daftar isi</a>
+    </h3>
+</body>
+</html>

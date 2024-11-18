@@ -1,0 +1,60 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 3px yellow ;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+table{
+    justify-content: center;
+    border-spacing: 5px;
+    width: 100%;
+    
+}
+td{
+    border-left-style: dotted;
+    border-color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td:hover{
+    background-color: blueviolet;
+}
+th{
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-color: yellow;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+ 
+}*{
+    background-color: rgb(18, 134, 134);
+}
+.yy{
+    background-color: rgb(12, 149, 129);
+}
+h2{
+    border-top-style: double;
+    border-color: brown;
+    text-decoration: none;
+    padding-top: 20px;
+    
+}
+h2 a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 2px yellow;
+    color: black;
+}
+a:hover{
+    background-color: aliceblue;
+    color: rgb(23, 0, 50);
+    text-shadow: 3px 2px 2px blueviolet;
+}
+a:active{
+    background-color: rgb(209, 251, 111);
+}

@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: darkblue;
+    text-transform: capitalize;
+    border: 1px solid #665544;
+    background-color: rgb(219, 167, 88);
+}
+h1~p{
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table th{ 
+    color: rgb(78, 4, 100);
+    background-color: antiquewhite;
+    text-transform: uppercase;
+}
+table td{
+    text-align: center;
+}
+h3 a{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(95, 42, 168);
+    background-color: #46dfa5;
+}
+body{
+    background-color: rgb(245, 243, 184);
+}

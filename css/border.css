@@ -1,0 +1,53 @@
+.border{
+    border-color: red;
+    border-bottom-style:dashed ;
+    border-top-style:dotted ;
+    border-right-style:groove ;
+    border-left-style: outset;
+    padding-right: 31px;
+    padding-left: 31px;
+}
+.gaga{
+    border-color: blue;
+    border-bottom-style:outset ;
+    border-top-style:outset ;
+    border-right-style:groove ;
+    border-left-style: outset;
+    padding-left:31px ;
+    padding-right: 31px;
+}
+.gagak{
+    border-color: rgb(27, 249, 94);
+    border-width: 7px 3px 7px 2px;
+    border-style: solid;
+    padding-left:31px ;
+    padding-right: 31px;
+}
+div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+
+}
+ol li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 30px;
+    text-transform: uppercase;
+    padding: 8px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 1px rgb(237, 234, 241);
+    background-color: rgb(36, 239, 239);
+}
+*{
+    background: rgb(248, 230, 196);
+}
+h4 a{
+    background-color: rgba(213, 224, 215, 0);
+    font-size: x-large;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+}

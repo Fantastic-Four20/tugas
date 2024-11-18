@@ -1,0 +1,28 @@
+body{
+    background: rgb(164, 181, 218);
+}
+h1{
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border: 1px solid blueviolet;
+    background-color: aquamarine;
+}
+p{
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+
+}
+.yaya{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(204, 226, 226);
+}
+h3 a{
+    color: brown;
+    font-size: x-large;
+    text-decoration: none;
+    font-style: italic;
+    
+}

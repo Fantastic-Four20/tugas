@@ -1,0 +1,50 @@
+body{
+    width: 960px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heder h1{
+    text-align: center;
+}
+.nav,.foter{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+.nav li{
+    display: inline;
+    padding-right: 35px;
+    font-size: 40px;
+    text-shadow: 3px 3px 2px blue;
+}
+.nav a{
+    text-decoration: none;
+    cursor: not-allowed;
+}
+.nav a:hover{
+    background-color: yellowgreen;
+    border-radius: 20px;
+    border: solid;
+    font-weight: bold;
+}
+.judul{
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+.judul img{
+    width: 20%;
+    padding: 10px;
+}
+.artikel{
+    width: 280px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    background-color: antiquewhite;
+    height: 200px;
+}
+.papa{
+    overflow: auto;
+}

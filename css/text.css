@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(29, 177, 89);
+    color: rgb(1, 15, 8);
+   text-shadow: 4.5px 2px 3px rgb(247, 250, 248);
+  
+}
+.hayu{
+margin-top: 20px;
+}
+table th{
+    text-transform: uppercase;
+   font-family: sans-serif;
+   padding: 4px;
+   color: rgb(11, 78, 19);
+}
+h3{
+    text-align: center;
+    background-color: rgba(28, 950, 90);
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-variant: small-caps;
+    position: sticky;
+    top: 0px;
+}
+
+table td{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    padding: 1px;
+    font-style: italic;
+}
+ol li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(8, 71, 26);
+}
+li dd{
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+    color: black;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+}
+*{
+    background-color: rgb(174, 246, 169);
+}
+.jiji a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(6, 53, 13);
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(8, 8, 8);
+    text-shadow: 4px 1px 1px rgb(232, 238, 235);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a:active{
+    background-color: black;
+}

@@ -1,0 +1,57 @@
+h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 3px 2px 3px rgb(27, 18, 1);
+   background-color: #f9f9fb;
+   color: rgb(94, 11, 158);
+}
+*{
+    background: rgb(193, 170, 216);
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline solid rgb(215, 6, 13);
+}
+span{
+    text-transform: capitalize;
+}
+p{
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hadi {
+    overflow: scroll;
+    height: 100px;
+    width: 300px;
+  margin-left:269px;
+  border: solid;
+}
+.haha{
+    overflow: hidden;
+    height: 100px;
+    width: 300px;
+    margin-block:scroll;
+    padding-: 400px;
+}
+h2{
+    padding-top: 1px;
+    text-transform: capitalize;
+    text-decoration: underline solid red;
+}
+h4 a{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-style: italic;
+   color: rgb(54, 4, 65);
+   text-decoration: none;
+}
+a:active{
+    background-color: rgb(225, 208, 249);
+    text-shadow: 1px 2px 2px black;
+}
+a:hover{
+    text-shadow: 1px 2px 2px beige;
+}
+    

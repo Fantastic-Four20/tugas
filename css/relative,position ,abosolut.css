@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(9, 238, 246);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;text-align: center;
+    background-color: aquamarine;
+    border-radius: 30px;
+    border-bottom:solid 5px;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;text-align: center;
+    background-color: aquamarine;
+    border-radius: 30px;
+    border-bottom:solid 5px;
+    margin: 5% 30% 3%;
+    position: sticky;
+    top: 0px;
+
+}
+p{
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+.gyu{
+    background-color: blue;
+    border-radius: 50px;
+    padding: 10px 12px 10px 12px;
+    margin: 1px 40% 3px 40%;
+    border: solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative; 
+    left: 0px;
+    bottom: 1;
+    text-transform: capitalize;
+    text-shadow: 3px 2px 3px white;
+    cursor: all-scroll;
+    
+}
+.gyu:hover{
+    background-color: rgb(244, 104, 10);
+}
+.gaga{
+    background-color: rgb(15, 172, 88);
+    border-radius: 50px;
+    padding: 10px 12px 10px 12px;
+    margin: 1px 40% 3px 40%;
+    border: solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 3px 2px 3px white;
+   cursor: not-allowed;
+}
+.gaga:hover{
+    background-color: rgb(244, 83, 14);
+}
+.mayau{
+    background-color: blue;
+    border-radius: 50px;
+    padding: 10px 12px 10px 8px;
+    margin: 1px 35% 3px 35%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: absolute; 
+    text-transform: capitalize;
+    text-shadow: 3px 2px 3px white;
+    cursor: all-scroll; 
+    left: 10%; 
+}
+.mayau:hover{
+    background-color: rgb(244, 83, 14);
+}
+h4 a{
+    text-decoration: none;
+    text-shadow: 3px 2px 2px rgb(71, 48, 3) ;
+    color: black;
+    font-size: 36px;
+    position: sticky;
+    bottom: 0px;
+}
+a:hover{
+    background-color: rgb(18, 18, 16);
+    color: yellow;
+    text-shadow: 3px 3px 4px;
+}
+a:active{
+    background-color: blue;
+}

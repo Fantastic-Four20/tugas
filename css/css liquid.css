@@ -1,0 +1,27 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin: 0px auto;
+}
+.daftarisi{
+    text-align: center;
+    background-color: aqua;
+}
+li{
+
+    list-style-type: none;
+}
+.daftarisi a{
+    text-decoration: none;
+}
+.konten ,.copy{
+    text-align: center;
+    background-color: aqua;
+}
+.lorem{
+    width: 30%;
+
+}
+h2{
+    text-align: center;
+}

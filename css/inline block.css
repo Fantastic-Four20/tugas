@@ -1,0 +1,78 @@
+
+.ini{
+    display: inline;
+    justify-content:center ;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-color: red;
+    border: solid;
+}
+.itu{
+    display: block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-color: red;
+    border: solid;
+}
+.intu{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-color: red;
+    border: solid;
+}
+.iuy{
+    border-color: blue;
+   border-bottom-style:solid ;
+}
+.gg{
+    display: flex;
+    height: 110px;
+    background-color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.untu{
+    display: flex;
+    background-color: beige;
+    border: solid;
+    width: 100px;
+}
+*{
+    background-color: rgb(13, 170, 170);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+h1{
+    text-transform: uppercase;
+    text-shadow: 2px 3px 1px wheat;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(70, 239, 239);
+}
+h2{
+    background-color: rgb(105, 174, 209);
+}
+.jiji a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 15, 2);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(8, 8, 8);
+    text-shadow: 4px 1px 1px rgb(232, 238, 235);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a:active{
+    background-color: black;
+}

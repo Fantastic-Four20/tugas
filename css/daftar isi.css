@@ -1,0 +1,59 @@
+h1{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgb(22, 3, 63);
+   text-align: center;
+   background-color: rgb(15, 251, 54);
+   text-shadow: 3px 1px 3px rgb(12, 12, 212);
+   border-radius: 40px;
+}
+.tolol a{
+    text-decoration: none;
+    font-size: 160%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: darkred;
+    font-weight: 300;
+    cursor: not-allowed;
+}
+a:hover{
+    background-color: black;
+    color: wheat;
+    text-shadow: 3px 1px 2px rgb(7, 236, 244);
+}
+.yay{
+    background-color: rgb(20, 241, 83);
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    border-radius: 40px;
+    background-image: url(../gambar/html-5-icon-224x256-1b5ud2sy.png);
+    background-position: 9px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+.yaya{
+    background-color: rgb(20, 241, 83);
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    border-radius: 40px;
+    background-image: url(../gambar/programming-script-css-three-language-three-code-programming-html-css-icon-252x256-4rkw188a.png);
+    background-position: 9px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+a:active{
+    background-color: blue;
+}
+hr~b{
+   color: rgb(6, 23, 39);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 27px;
+}
+ol li{
+list-style-type: none;;
+
+}
+*{
+    background-color: rgb(32, 153, 23);
+}

@@ -1,0 +1,44 @@
+/* selektor universal */
+* {
+    font-family: Arial;
+}
+/* type selektor */
+dt{
+    color: brown;
+    font-size: x-large;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* class selektor */
+h1.gg{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(229, 43, 14);
+}
+/* id selektor */
+#pp{
+    color: blue;
+}
+/* chid selektor */
+p>b{
+    color: blueviolet;
+}
+/* exendanc selektor */
+p b{
+    color: blueviolet;
+}
+/* adjuntcen sibling selektor*/
+p+table{
+    color: rgb(43, 3, 3);
+}
+/* general sibling selektor */
+p~table{
+    color: rgb(3, 64, 17);
+ 
+}
+.jiji a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(48, 68, 7);
+    font-size: 30px;
+    text-decoration: none;
+}

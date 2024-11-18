@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/1.css">
+</head>
+<body>
+    <h1 class="gg"><b>external css</b></h1>
+    <p>
+        <b>external</b> css adalah kita dapat mengakses disaign web kita menggunakan css sedangkan internal css kita mengaksesnya dijalur <i><b>html</b></i> kita
+    </p>
+    <table border="1">
+        <tr>
+            <th id="pp">penjelasan</th>
+        </tr>
+        <tr>
+            <td>
+                <abbrv title="(link)'nama variable' (rel)'untuk menyabungkan web kita ke css (href)'untuk memasukan judul css kita yang ingin disambungkan dgn html kita">"link rel='stylesheet' href='bayu.css'</abbrv>
+            </td>
+        </tr>
+    </table>
+    <h1 class="gg">css selektor</h1>
+    <p>
+        CSS selector adalah pola yang digunakan untuk memilih elemen HTML yang akan diberi gaya dengan CSS. Selector merupakan salah satu sintaks dasar CSS dan tanpa selector, script CSS tidak akan berfungsi pada web HTML. 
+    </p>
+    <ol>
+        <li>
+            <dl>
+                <dt>
+                    universal selektor
+                </dt>
+                <dd>
+                    adalah selektor akan mengaplikasikan ke semua komponen
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>
+                    type selektor
+                </dt>
+                <dd>
+                    adalah selektor yang akan berjalan hanya satu tujuan aja yang kita pilih tidak menyeluruh tdk seperti selektor universal
+                </dd>
+            </dl>
+        </li>
+        <li>
+        <dl>
+            <dt>
+                class selektor
+            </dt>
+            <dd>
+                nah class selektor ini dia akan jalan yang kita sudah memberikan claas saja beda sama type selektor dia menggunakn variablenya
+            </dd>
+        </dl>
+        </li>
+        <li>
+        <dl>
+            <dt>
+                id selektor
+            </dt>
+            <dd>
+                nah selektor ini persis sama selektor class yang membedakanya cuman memakai id
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl>
+            <dt>
+                chid selektor
+            </dt>
+            <dd>
+                dia akan menjalankan selektor ini didalam variable misalnya variable b itu sudah di pakai sama si selektor type nah tetapi selektor b itu memiliki induk variable yang berbeda nah ini saatnya berfungsinya sebuah selektor chid untuk memisahkannya
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl>
+            <dt>
+                exendanc selektor
+            </dt>
+            <dd>
+                exendanc selektor berfungsi menyatukan selektor misalnya ada b didalam p b yang satu lagi dia di bungkus sama i tetapi induknya sama p nah ini tugasnya si exendac selektor untuk menjalankan b yang induknya sama
+            </dd>
+        </dl>
+    </li>
+</li>
+<li>
+    <dl>
+        <dt>
+            adjuncent sibling selektor
+        </dt>
+        <dd>
+           adalah untuk menselec bagian yang menempel di dekatnya misalnya ada kita ingin menjalankan css di p setelah h2 nah ini lh tugas dia untuk menjalankan perkerjaan tsb
+        </dd>
+    </dl>
+</li>
+</li>
+<li>
+    <dl>
+        <dt>
+            general sibling selektor
+        </dt>
+        <dd>
+            hampir sama dengan adjuncet tetapi dia akan berjalan css di setelahnya misalnya ada 2 komponen h2 setelahnya ada p nah kita ingin menjalankan p tersebut nah kita bisa menjalankn dengan ini walaupun h2 satu lg kita hapus dia akan tetep berjalan bebeda sama adjuncet dia tidak bisa jalan
+        </dd>
+    </dl>
+</li>
+
+    </ol>
+    <table border="1">
+        <tr>
+            <th colspan="4">contoh</th>
+        </tr>
+        <tr>
+            <td>
+                <abbrv title="nah tanda bintang itu adalah variable dari universal selektor dan jangan lupa masukan tanda kurungnya">(1) * {
+                    font-family: Arial;
+                }</abbrv>
+            </td>
+            <td>
+                <abbrv title="nah h1 di depan itu yng namanya type selektor dia hanya menjalankan selektor di depan kurung saja">(2) h1{font-family: Arial;
+                }</abbrv>
+            </td>
+            <td>
+                <abbrv title="nah ini kita jalankan dengan cara claas baru dia berjalan dan kata sarapan itu nama dari class kita">(3) li.sarapan{font-family: Arial;
+                }</abbrv>
+            </td>
+            <td>
+                <abbrv title="# itu ciri khasnya id yg sekaligus membedakan dengan class selektor">(4) #sarapan{font-family: Arial;
+                }</abbrv>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <abbrv title="p>b p=itu induk dari b ">(5) p>b{font-family: Arial;
+                }</abbrv>
+            </td>
+            <td>
+                <abbrv title="p b p=itu induk dari b ">(6) p b{font-family: Arial;
+                }</abbrv>
+            </td>
+            <td>
+                <abbrv title="p+b p=itu induk dari b ">(7) p+b{font-family: Arial;
+                }</abbrv>
+            </td>
+            <td>
+                <abbrv title="pb p=itu induk dari b ">(8) p~b{font-family: Arial;
+                }</abbrv>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <div align="center" class="jiji">
+        <a href="../html/daftar isi.html">Daftar isi</a>
+    </div>
+    
+</body>
+</html>

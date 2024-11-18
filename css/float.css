@@ -1,0 +1,25 @@
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.papa{
+    width: 650px;
+    float: left;
+}
+.nanya{
+    max-width: 700px;
+    margin: 0px auto 0px auto ;
+    position: relative;
+
+}
+.hayu li{
+    list-style-type: none;
+    float: left;
+    width: 50px;
+    display: block;
+}

@@ -1,0 +1,79 @@
+input{
+    font-size: 19px;
+    color: rgb(211, 240, 23);
+    background-color: rgb(254, 253, 253);
+    border: 1px solid gold;
+    border-radius: 50px;
+    padding: 5px 5px 5px 70px;
+    display: block;
+    margin-bottom: 10px;
+
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 1px;
+    background-color: rgb(13, 39, 39);
+}
+input:focus{
+    background-color: blueviolet;
+
+}
+input.yaya{
+    background-image: url(../gambar/images\ \(2\).png);
+    background-size: 55px;
+   margin-left: 100px;
+      
+}
+input.gege{
+    background-image: url(../gambar/png-clipart-social-media-symbol-computer-icons-social-media-white-logo-social-media.png);
+    background-size: 55px;
+    margin-left: 100px;
+      
+}
+input.yay{
+    background-image: url(../gambar/images\ \(1\).png);
+    background-size: 55px;
+    margin-left: 100px;
+      
+}
+.ya{
+    padding: 5px 60px 5px 60px;
+    margin-left: 170px;
+}
+input.ya:hover{
+    background-color: yellow;
+    color: black;
+    text-shadow: 2px 3px 2px grey;
+    font-weight:bolder ;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px gray;
+    background-color: rgba(250, 242, 14, 0.368);
+}
+*{
+    background-color: bisque;
+}
+div{
+    border-bottom: solid;
+    padding-bottom: 50px;
+}
+h4 a{
+    text-decoration: none;
+    text-shadow: 3px 2px 2px rgb(71, 48, 3) ;
+    color: black;
+    font-size: 36px;
+}
+a:hover{
+    background-color: rgb(18, 18, 16);
+    color: yellow;
+    text-shadow: 3px 3px 4px;
+}
+a:active{
+    background-color: blue;
+}
