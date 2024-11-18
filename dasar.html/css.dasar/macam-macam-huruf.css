@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(18, 189, 189);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+h1{
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 2px;
+    background: blanchedalmond;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-weight: bold;
+    border-radius: 70px;
+}
+img{
+    height: 550px;
+}
+h2{
+    font-style: italic;
+}
