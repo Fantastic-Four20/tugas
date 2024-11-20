@@ -49,6 +49,9 @@ span{
     text-transform: uppercase;
    color: blue;
 }
-.hayal{
+.hayal a{
 cursor: all-scroll;
+text-decoration: none;
+border: none;
+color: black;
 }
