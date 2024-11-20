@@ -29,7 +29,8 @@
 }
 .isi{
     float: right;
-    width: 350px;    
+    width: 400px;    
+    color: black;
 }
 body{
     width: 1000px;
@@ -39,7 +40,7 @@ body{
 }
 .lalu{
     float: left;
-    width: 500px;
+    width: 550px;
 }
 .cuman{
     overflow: auto;
@@ -47,4 +48,7 @@ body{
 span{
     text-transform: uppercase;
    color: blue;
+}
+.hayal{
+
 }
