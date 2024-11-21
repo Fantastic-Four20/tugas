@@ -40,18 +40,22 @@ body{
 }
 .lalu{
     float: left;
-    width: 550px;
+    width: 590px;
 }
 .cuman{
     overflow: auto;
 }
 span{
     text-transform: uppercase;
-   color: blue;
+   color: rgb(6, 6, 99);
 }
 .hayal a{
 cursor: all-scroll;
 text-decoration: none;
 border: none;
 color: black;
+}
+.home li ,a{
+    text-decoration: none;
+    color: rgb(249, 249, 250);
 }
